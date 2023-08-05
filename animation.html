@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+#akhi{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    0% {background-color: blue; left:0px;top:0px;}
+    25%{background-color: brown;left:200px;top:0px;}
+    50%{background-color: yellow;left:200px; top:200px;}
+    75%{background-color: brown;left:0px;top:200px;}
+    100%{background-color: black;left:0px;top:0px;}
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
+
+
+
+    </style>
+
+</head>
+<body>
+    <h>Css Animation</h>
+    <div></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptates?</p>
+    <img src="https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=1060&t=st=1689745747~exp=1689746347~hmac=1cd48566111b6f0f023c8a99591c889c1de5889d857e5459fac776783fce2e26" width="300" height="300">
+    <h1>CSS Animation</h1>
+    <p id="akhi"></p>
+
+
+
+</body>
+</html>
